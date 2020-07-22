@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title>Vineyard Of God Ministries</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="https://checkout.stripe.com/checkout.js" defer></script>
+		<script>
+			var stripePublicKey = '<%= stripePublicKey %>'
+		</script>
+
+<!-- JS, Popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="/home">VINEYARD OF GOD MINISTRIES</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="/home">Home</a></li>
+					<li><a href="/donate">Donate</a></li>
+					<li><a href="/events">Events</a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1 id="vineyardtvlivestream">DONATE USING PAYPAL OR CREDIT CARD</h1>
+				</div>
+				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
+			</section>
+
+		<!-- Highlights -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Using Paypal, Credit Card Or Partnership</h2>
+					</header>
+					<div class="highlights">
+						<a href="https://paypal.me/pastorgloriaemuan"><button class="btn-primary">Donate Using Paypal</button></a>
+						<a id="donate-button"><button class="btn-primary">Donate Using Credit Card</button></a>
+						<a href="https://www.facebook.com/groups/499656450646627"><button class="btn-primary">Partner on Facebook</button></a>
+					</div>
+					
+				</div>
+			</section>
+
+		<!-- CTA -->
+		<section id="cta" class="wrapper">
+			<div id="select-amount" class="inner">
+				<h2><b>CHOOSE AMOUNT</b></h2>
+				<input class="form-control" type="text" id="money-inputted"/>
+				<button id="donate-accepted">Continue</button>
+				<button id="donate-canceled">Cancel</button>
+			</div>
+		</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section id="Init-Vineyard">
+							<h2><b>VINEYARD OF GOD MINISTRIES</b></h2>
+							<h4>Glorious Center</h4>
+							<h2>Castellon, Spain</h3>
+							<img src="./images/logo transparent.png" id="logo-vineyard">
+						</section>
+						<section>
+							<h4>LIVE ON OUR PLATFORMS</h4>
+							<ul class="alt">
+								<li><a href="#">Youtube Live</a></li>
+								<li><a href="#">Facebook Live</a><b></li>
+							</ul>
+						</section>
+						<section>
+							<h4><b>Our Socials</b></h4>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-youtube">&nbsp;</i>Youtube</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						Vineyard Of God Ministries
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/donatefunction.js"></script>
+
+	</body>
+</html>
