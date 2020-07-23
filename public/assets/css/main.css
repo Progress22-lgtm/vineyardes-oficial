@@ -2856,6 +2856,13 @@ body.is-menu-visible #menu {
 }
 }
 
+@media screen and (max-width: 1920px){
+  #mainbody-article-video{
+    width: 1664px;
+    height: 1152px;
+}
+}
+
 #Init-Vineyard{
   text-align: center;
 }
