@@ -1815,8 +1815,7 @@ ul.icons {
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
-  justify-content: center;
-  background-image: url("../../images/background.JPG");
+  justify-content: center;;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2885,4 +2884,20 @@ body.is-menu-visible #menu {
 #small-it{
   width: 70vh;
   height: 7vh;
+}
+#fullscreen{
+  position: absolute;
+  top: -80vh;
+  min-width:100%;
+  min-height:100%;
+  width: auto;
+  height: auto;
+}
+#video-full{
+  width:100%;
+}
+#visit-title{
+  font-weight: 900;
+  color: red;
+  -webkit-text-stroke: 2px white;
 }
