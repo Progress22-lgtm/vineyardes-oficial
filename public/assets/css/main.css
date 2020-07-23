@@ -2425,9 +2425,9 @@ body {
   background: #111111;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
-  height: 3.25rem;
+  height: 4rem;
   left: 0;
-  line-height: 3.25rem;
+  line-height: 1rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -2438,6 +2438,8 @@ body {
     font-weight: 600;
     height: inherit;
     line-height: inherit;
+    text-align: center;
+    margin-top: 4vh;
     padding: 0 1.25rem;
     text-decoration: none; }
   #header > nav > a {
@@ -2887,7 +2889,7 @@ body.is-menu-visible #menu {
 }
 #fullscreen{
   position: absolute;
-  top: -80vh;
+  top: -26vh;
   min-width:100%;
   min-height:100%;
   width: auto;
