@@ -11,7 +11,9 @@
 @-ms-viewport {
   width: device-width; }
 body {
-  -ms-overflow-style: scrollbar; }
+  -ms-overflow-style: scrollbar;
+  overflow-x: hidden;
+}
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -2902,4 +2904,59 @@ body.is-menu-visible #menu {
   font-weight: 900;
   color: red;
   -webkit-text-stroke: 2px white;
+}
+.logo-vineyard{
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  height: inherit;
+  line-height: 1rem;
+  text-align: center;
+  margin-top: 4vh;
+  padding: 0 1.25rem;
+  text-decoration: none;}
+@media screen and (max-width: 411px){
+  .logo-vineyard{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    height: inherit;
+    line-height: 1rem;
+    text-align: center;
+    margin-top: 4vh;
+    padding: 0 1.25rem;
+    text-decoration: none;}
+}
+@media screen and (max-width: 322px){
+  .logo-vineyard{
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 600;
+    height: inherit;
+    line-height: 1rem;
+    text-align: center;
+    margin-top: 3vh;
+    padding: 0 1.25rem;
+    text-decoration: none;}
+    
+}
+@media screen and (min-width: 322px){
+  #fullscreen{
+    position: absolute;
+    top: -44vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (min-width: 280px){
+  #fullscreen{
+    position: absolute;
+    top: -60vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
 }
