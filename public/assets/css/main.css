@@ -9,9 +9,8 @@
 
 
 @-ms-viewport {
-  width: device-width; }
+  }
 body {
-  -ms-overflow-style: scrollbar;
   overflow-x: hidden;
 }
 
@@ -2067,7 +2066,7 @@ ul.icons {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/background.JPG);
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/NEWCHURCHPORTRAIT.JPG);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2891,7 +2890,7 @@ body.is-menu-visible #menu {
 }
 #fullscreen{
   position: absolute;
-  top: -26vh;
+  top: -32vh;
   min-width:100%;
   min-height:100%;
   width: auto;
@@ -2940,23 +2939,103 @@ body.is-menu-visible #menu {
     text-decoration: none;}
     
 }
-@media screen and (min-width: 322px){
+
+@media screen and (min-width: 411px){
   #fullscreen{
     position: absolute;
-    top: -44vh;
+    top: -43.2vh;
     min-width:100%;
     min-height:100%;
     width: auto;
     height: auto;
   }
+    
+}
+@media screen and (min-width: 320px){
+  #fullscreen{
+    position: absolute;
+    top: -54vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
+    
+}
+@media screen and (min-width: 360px){
+  #fullscreen{
+    position: absolute;
+    top: -48vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
+    
+}
+@media screen and (min-width: 375px){
+  #fullscreen{
+    position: absolute;
+    top: -46vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
+    
+}
+@media screen and (min-width: 414px){
+  #fullscreen{
+    position: absolute;
+    top: -44.2vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
+    
+}
+@media screen and (min-width: 768px){
+  #fullscreen{
+    position: absolute;
+    top: -41vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
+    
+}
+@media screen and (min-width: 1024px){
+  #fullscreen{
+    position: absolute;
+    top: -59vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
+    
+}
+@media screen and (min-width: 540px){
+  #fullscreen{
+    position: absolute;
+    top: -30vh;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+  }
+    
 }
 @media screen and (min-width: 280px){
   #fullscreen{
     position: absolute;
-    top: -60vh;
+    top: -47vh;
     min-width:100%;
     min-height:100%;
     width: auto;
     height: auto;
   }
+    
 }
